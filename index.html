@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <style>
+        .img1{
+            width:110px;
+            height:100px;
+            vertical-align: middle;
+        }
+        .img2{
+            width:100%;
+            height:500px;
+            vertical-align: middle;
+        }
+        .img3{
+            width:75px;
+            height:75px;
+            vertical-align: middle;
+        }
+        .img4{
+            width:650px;
+            height:360px;
+        }
+        .img5{
+            width:125px;
+            height:100px
+        }
+        .p1{
+            display: inline-block;
+            color:white;
+            font-size: 2.5rem;
+            text-shadow:2px 2px 10px rgb(36, 124, 149) ;
+        }
+        .p2{
+            font-style: italic;
+            color:white;
+        }
+        .p3{
+            display: inline-block;
+        }
+        .div1{
+            display: inline-block;
+            /*background-color: #a99a9a;*/
+            padding:5px;
+        }
+        .div2{
+            width:100%;
+            height:75px;
+            background-color: #6570b4;
+        }
+        .header1{
+            display: inline-block;
+            width:100%;
+            height:175px;
+            border: solid white;
+            /*background-color: #2b12a9;*/
+            /*margin:100px auto;*/
+            /*background-color: #1e2d42;*/
+        }
+        
+
+        
+        .parent>input:first-of-type{
+            width:380px;
+            height:40px;
+            border:1px solid #ccc;
+            font-size:16px;
+            outline:none;
+        }
+       .parent>input:last-of-type{
+        width:100px;
+        height:44px;
+        position: absolute;
+        background: #9778be;
+        border:1px solid #9778be;
+        color:#fff;
+        font-size:16px;
+        outline:none;
+       } 
+       .footer{
+        position:fixed;
+        left:0px;
+        bottom:0px;
+        width:100%;
+        height:50px;
+        background-color: #7f5fb0;
+        z-index:9999;
+       }
+       /*.footer{
+        margin-top: -50px;
+        height: 50px;
+        background-color: #4f919d;
+        z-index:9999;
+       }*/
+       /*.footer{
+        position: absolute;
+        bottom: 16px;
+        width:100%;
+        height:75px;
+        background-color: #65a4cb;
+       }*/
+       .nav{
+            background: #8960be;
+        }
+        .nav a{
+            color:#fff;
+            padding: 20px 30px;
+            display: inline-block;
+        }
+        .nav a:hover{
+            background: #6da4b4;
+            color:#000;
+        }
+        .lside{
+            width: 250px;
+            float:left;
+            /*border:3px solid white;*/
+        }
+        .rside{
+            width:250px;
+            float:right;
+            /*border:3px solid white;*/
+        }
+        .content{
+            /*margin: 0px 205px;*/
+            /*float:right;*/
+            margin: auto;
+            text-align: center;
+            position: absolute;
+            top:790px;
+            left:0;
+            right:200px;
+            bottom:0;
+            float:none;
+        }
+        .lside,.rside,.content{
+            padding: 5px;
+        }
+        
+        
+    </style>
+</head>
+<body background="019.jpg">
+    <div class="header1">
+        <img  class="img1" src="027.jpg" >
+        <p class="p1">菜鸟旅游网</p>
+        <p class="p2">世界这么大，你想去看看</p>
+    </div>
+    
+    
+    <div class="header3">
+        <img  class="img2" src="026.jpg" >
+        <div class="nav">
+            <a href="index.html" style="text-decoration: none;">首页</a>
+            <a href="branch1.html" style="text-decoration: none;">热门城市</a>
+            <a href="branch2.html" style="text-decoration: none;">公司简介</a>
+            <a href="branch2.html" style="text-decoration: none;">联系我们</a>
+            <a href="#" style="text-decoration: none;">在线留言</a>
+        </div>
+        <div class="header2">
+            <form action="" class="parent">
+                <input type="text" >
+                <input type="button" value="搜索一下">
+            </form>
+        </div>
+    </div>
+    <div style="color:white;" class="container">
+        <div  style="color:white;"class="lside">
+            <h2>度假旅游</h2>
+            <div class="div1">
+                <img class="img3" src="009.png" alt="">
+                <p class="p3">机票</p>
+            </div>
+            <div class="div1">
+                <img class="img3" src="010.jpg" alt="">
+                <p class="p3">酒店</p>
+            </div>
+            <div class="div1">
+                <img class="img3" src="011.jpg" alt="">
+                <p class="p3">火车</p>
+            </div>
+            <div class="div1">
+                <img class="img3" src="011.png" alt="">
+                <p class="p3">签证</p>
+            </div>
+                <h2>境内旅游</h2>
+                <ul>
+                    <li style="padding:5px;">西双版纳</li>
+                    <li style="padding:5px;">九寨沟</li>
+                    <li style="padding:5px;">故宫</li>
+                    <li style="padding:5px;">鼓浪屿</li>
+                    <li style="padding:5px;">桂林</li>
+                    <li style="padding:5px;">厦门</li>
+                </ul>
+                <h2>境外旅游</h2>
+                <ul>
+                    <li style="padding:5px;">泰国</li>
+                    <li style="padding:5px;">马尔代夫</li>
+                    <li style="padding:5px;">巴厘岛</li>
+                    <li style="padding:5px;">埃及</li>
+                    <li style="padding:5px;">新西兰</li>
+                    <li style="padding:5px;">法国</li>
+                </ul>
+                <h2>自助旅游</h2>
+                <h2>周边旅游</h2>
+                <h2>私人定制</h2>
+        </div>
+        <div class="rside">
+            <h2>合作与项目</h2>
+            <div>
+                <img  class="img5"src="015.png" alt="">
+                <p>目的地营销合作</p>
+            </div>
+            <div>
+                <img  class="img5"src="015.jpg" alt="">
+                <p>目的地产品合作</p>
+            </div>
+            <div>
+                <img  class="img5"src="016.jpg" alt="">
+                <p>市场合作</p>
+            </div>
+            <div>
+                <img  class="img5"src="017.jpg" alt="">
+                <p>门市合作</p>
+            </div>
+            <div>
+                <img  class="img5"src="018.png" alt="">
+                <p>自营合作</p>
+            </div>
+            <p>联系电话：17793693115</p>
+            <p>微信：######</p>
+            <p style="color:rgb(108, 102, 183);">若您有兴趣，请联系我们呦，感谢您的光临</p>
+        </div>
+        <div class="content">
+            <h2>热门推荐</h2>
+            <div>
+                <img class="img4" src="012.jpg" alt="">
+                <p>北京是古老的，但同时又是一座焕发美丽青春的古城，北京正以一个雄伟、奇丽、新鲜、现代化的姿态出现在世界上。</p>
+            </div>
+            <div>
+                <img class="img4" src="013.jpg" alt="">
+                <p>上海：绚丽的霓虹灯凸显着东方明珠的辉煌，外滩的洋房让人在这座城市中迷惘，黄浦江上耀眼的光芒却有一种近代的沧桑。</p>
+            </div>
+            <div>
+                <img class="img4" src="014.jpg" alt="">
+                <p>香港：香港身处中国之南，属岭南地区，在北京工作多年的列孚斩钉截铁地说：我们的电影与岭南文化零距离！ 这是一个富争论性的提法，相信会引起各家争鸣。</p>
+            </div>
+           
+        </div>
+    </div>
+    <hr>
+    <hr>
+    <div class="footer">
+        <p>该页面版权归菜鸟旅游网所属，侵权必究</p>
+    </div>
+</body>
+</html>
